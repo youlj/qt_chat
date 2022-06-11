@@ -1,0 +1,45 @@
+QPushButton#sysmin {
+    border-image: url(:Resources/btn_mini_normal.gft.png); 
+ }
+ QPushButton#sysmin:hover {
+    border-image: url(:Resources/btn_mini_highlight.gft.png); 
+ }
+ QPushButton#sysmin:pressed {
+    border-image: url(:Resources/btn_mini_down.gft.png); 
+ }
+ 
+ QPushButton#sysclose {
+    border-image: url(:Resources/btn_close_normal.gft.png); 
+ }
+ QPushButton#sysclose:hover {
+    border-image: url(:Resources/btn_close_highlight.gft.png); 
+ }
+ QPushButton#sysclose:pressed {
+    border-image: url(:Resources/btn_close_down.gft.png); 
+ }
+ 
+ QLabel#titleIcon{
+     background-image:url(:Resources/qqlogoclassic.png);
+ }
+ QWidget#titleWidget{
+     background-color: rgb(22, 154, 228);
+     /* border-top-left-radius: 7px;
+     border-top-right-radius: 7px; */
+ }
+ QWidget#leftWidget{
+    background-color: rgb(67, 233, 123);
+ }
+ /* QPushButton{
+	background:rgb(7, 189, 253);
+	color:#ffffff;
+	border:none;
+	border-radius:4px;
+	padding: 7px;
+}
+
+QPushButton:hover{
+	background:rgb(33, 200, 253);
+}
+QPushButton:pressed{
+    background:rgb(7, 189, 253);
+} */

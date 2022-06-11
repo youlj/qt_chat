@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/btn_close_down.gft.png</file>
+        <file>Resources/btn_close_highlight.gft.png</file>
+        <file>Resources/btn_close_normal.gft.png</file>
+        <file>Resources/btn_mini_down.gft.png</file>
+        <file>Resources/btn_mini_highlight.gft.png</file>
+        <file>Resources/btn_mini_normal.gft.png</file>
+        <file>Resources/qqlogoclassic.png</file>
+        <file>Resources/server.css</file>
+    </qresource>
+</RCC>

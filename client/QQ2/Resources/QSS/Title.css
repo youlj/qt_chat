@@ -1,0 +1,72 @@
+* {
+    font-family: Microsoft YaHei;
+}
+
+/*??С?????*/
+QPushButton#ButtonMin
+{
+    border-image:url(:Resources/MainWindow/Title/min.png) 0 81 0 0;
+    /* 后面四个参数表示距离图片上右下左的像素距离 */
+}
+
+QPushButton#ButtonMin:hover
+{
+    border-image:url(:Resources/MainWindow/Title/min.png) 0 54 0 27 ;
+}
+
+QPushButton#ButtonMin:pressed
+{
+    border-image:url(:Resources/MainWindow/Title/min.png) 0 27 0 54 ;
+}
+
+/*??????*/
+QPushButton#ButtonMax
+{
+    border-image:url(:Resources/MainWindow/Title/max.png) 0 81 0 0 ;
+}
+
+QPushButton#ButtonMax:hover
+{
+    border-image:url(:Resources/MainWindow/Title/max.png) 0 54 0 27 ;
+}
+
+QPushButton#ButtonMax:pressed
+{
+    border-image:url(:Resources/MainWindow/Title/max.png) 0 27 0 54 ;
+}
+
+/*??????*/
+QPushButton#ButtonRestore
+{
+    border-image:url(:Resources/MainWindow/Title/restore.png) 0 81 0 0 ;
+}
+
+QPushButton#ButtonRestore:hover
+{
+    border-image:url(:Resources/MainWindow/Title/restore.png) 0 54 0 27 ;
+}
+
+QPushButton#ButtonRestore:pressed
+{
+    border-image:url(:Resources/MainWindow/Title/restore.png) 0 27 0 54 ;
+}
+
+/*?????*/
+QPushButton#ButtonClose
+{
+    border-image:url(:Resources/MainWindow/Title/close.png) 0 81 0 0 ;
+    border-top-right-radius:4 ;
+}
+
+QPushButton#ButtonClose:hover
+{
+    border-image:url(:Resources/MainWindow/Title/close.png) 0 54 0 27 ;
+    border-top-right-radius:4 ;
+}
+
+QPushButton#ButtonClose:pressed
+{
+    border-image:url(:Resources/MainWindow/Title/close.png) 0 27 0 54 ;
+    border-top-right-radius:4 ;
+  
+}
